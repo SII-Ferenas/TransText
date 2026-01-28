@@ -1,8 +1,9 @@
 # TransText: Alpha-as-RGB Representation for Transparent Text Animation
 
-Fei Zhang<sup>1,2</sup>, Shikun Liu<sup>1</sup>, Haozhe Liu<sup>1</sup>, Haonan Qiu<sup>1</sup>, Zhaochong An<sup>1</sup>, Weiming Ren<sup>1</sup>, Zhiheng Liu<sup>1</sup>, Xiaoke Huang<sup>1</sup>, Kam Woh Ng<sup>1</sup>, Tian Xie<sup>1</sup>, Xiao Han<sup>1</sup>, Yuren Cong<sup>1</sup>, Hang Li<sup>1</sup>, Chuyan Zhu<sup>1</sup>, Aditya Patel<sup>1</sup>, Tao Xiang<sup>1</sup>, Sen He<sup>1</sup>
+Fei Zhang <sup>1,2</sup>, Zijian Zhou <sup>3</sup>, Bohao Tang<sup>1,2</sup>, Sen He<sup>3</sup>, Hang Li<sup>3</sup>, Zhe Wang<sup>3</sup>, Soubhik Sanyal<sup>3</sup>, Pengfei Liu<sup>1,2</sup>, Viktar Atliha<sup>3</sup>, Tao Xiang<sup>3</sup>, Frost Xu<sup>3</sup>, Semih Gunel<sup>3</sup>
 
-<sup>1</sup> Meta AI &nbsp;&nbsp;&nbsp; <sup>2</sup> King's College London
+
+<sup>1</sup> Shanghai Jiao Tong University &nbsp;&nbsp;&nbsp; <sup>2</sup> Shanghai Innovation Institute &nbsp;&nbsp;&nbsp; <sup>3</sup> Meta AI
 
 
 **The training and inference code will be released once it has been organized. Please stay tuned.**
@@ -10,17 +11,17 @@ Fei Zhang<sup>1,2</sup>, Shikun Liu<sup>1</sup>, Haozhe Liu<sup>1</sup>, Haonan 
 
 ## Project Overview
 
-**Saber** is a scalable zero-shot framework for reference-to-video (R2V) generation. By introducing a masked training strategy, Saber bypasses the bottleneck of explicit reference image-video-text triplet datasets, training exclusively on video-text pairs to achieve zero-shot generation capabilities without explicit R2V data.
+**TransText** is the first framework for reference-to-video (I2V) glyph generation. Our framework jointly models appearance and transparency by embedding the alpha channel into an RGB-compatible latent space, utilizing a specialized $\alpha$-reconstruction loss and structural trimap conditioning to ensure high-fidelity, cross-modal consistency in transparent text animations.
 
 ## Citation
 
-If you find Saber useful for your research, please cite our paper:
+If you find TransText useful for your research, please cite our paper:
 
-```bibtex
-@article{zhou2025scaling,
+<!-- ```bibtex
+@article{zhang2025scaling,
     title={Scaling Zero-Shot Reference-to-Video Generation},
     author={Zhou, Zijian and Liu, Shikun and Liu, Haozhe and Qiu, Haonan and An, Zhaochong and Ren, Weiming and Liu, Zhiheng and Huang, Xiaoke and Ng, Kam Woh and Xie, Tian and Han, Xiao and Cong, Yuren and Li, Hang and Zhu, Chuyan and Patel, Aditya and Xiang, Tao and He, Sen},
     journal={arXiv preprint arXiv:2512.06905},
     year={2025}
 }
-```
+``` -->
