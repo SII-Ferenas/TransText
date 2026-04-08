@@ -18,11 +18,14 @@ Fei Zhang <sup>1,2</sup>, Zijian Zhou <sup>3</sup>, Bohao Tang<sup>1,2</sup>, Se
 
 If you find TransText useful for your research, please cite our paper:
 
-<!-- ```bibtex
-@article{zhang2025scaling,
-    title={Scaling Zero-Shot Reference-to-Video Generation},
-    author={Zhou, Zijian and Liu, Shikun and Liu, Haozhe and Qiu, Haonan and An, Zhaochong and Ren, Weiming and Liu, Zhiheng and Huang, Xiaoke and Ng, Kam Woh and Xie, Tian and Han, Xiao and Cong, Yuren and Li, Hang and Zhu, Chuyan and Patel, Aditya and Xiang, Tao and He, Sen},
-    journal={arXiv preprint arXiv:2512.06905},
-    year={2025}
+```bibtex
+@misc{zhang2026transtextalphaasrgbrepresentationtransparent,
+      title={TransText: Alpha-as-RGB Representation for Transparent Text Animation}, 
+      author={Fei Zhang and Zijian Zhou and Bohao Tang and Sen He and Hang Li and Zhe Wang and Soubhik Sanyal and Pengfei Liu and Viktar Atliha and Tao Xiang and Frost Xu and Semih Gunel},
+      year={2026},
+      eprint={2603.17944},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.17944}, 
 }
-``` -->
+```
